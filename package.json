@@ -1,0 +1,23 @@
+{
+  "name": "ethane",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/ethane.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montyanderson/ethane/issues"
+  },
+  "homepage": "https://github.com/montyanderson/ethane#readme",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.4",
+    "stdrpc": "^0.0.1"
+  }
+}
