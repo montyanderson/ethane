@@ -5,7 +5,7 @@ Clear, modern, ES6-compatible module for interacting with Ethereum smart contrac
 ## Usage
 
 ``` javascript
-const Ethane = require("../ethane");
+const Ethane = require("ethane");
 
 const ethane = new Ethane("http://localhost:8545");
 
