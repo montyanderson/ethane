@@ -1,7 +1,7 @@
 {
   "name": "ethane",
   "version": "0.0.1",
-  "description": "",
+  "description": "Clear, modern, ES6-compatible module for interacting with Ethereum smart contracts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/montyanderson/ethane.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Monty Anderson <monty.linux@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/montyanderson/ethane/issues"
   },
