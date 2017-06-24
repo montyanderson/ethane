@@ -1,6 +1,6 @@
 # ethane
 
-Clear, modern, ES6-compatible module for interacting with Ethereum smart contracts.
+Clear, modern, ES6-compatible module for interacting with Ethereum smart contracts, built upon the [stdrpc](https://github.com/montyanderson/stdrpc) JSON-RPC library.
 
 ## Usage
 
