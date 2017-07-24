@@ -1,23 +1,21 @@
 # ethane
 
-Clear, modern, ES6-compatible module for interacting with Ethereum smart contracts, built upon the [stdrpc](https://github.com/montyanderson/stdrpc) JSON-RPC library.
+ES8-compatible Ethereum smart contracts library for Javascript.
 
 ## Usage
 
 ``` javascript
 const Ethane = require("ethane");
-
-const ethane = new Ethane("http://localhost:8545");
+ethane.provider = web3.currentProvider;
 
 const Account = ethane.contract(
-	/* Contract ABI */
+	abi: /* contract abi */,
+	bin: /* contract binary */
 );
 
-const account = new Account("0x4780e332579dd6c885fbd66ae8166b103b016ef7");
+const account = Account.at("0x4780e332579dd6c885fbd66ae8166b103b016ef7");
 
 account.getName().then(name => {
 	console.log(name);
-}).catch(error => {
-	console.log(error);
 });
 ```
