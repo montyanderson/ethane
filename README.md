@@ -1,6 +1,6 @@
 # ethane
 
-ES8-compatible Ethereum smart contracts library for Javascript.
+:scroll: ES8-compatible Ethereum smart contracts library for Javascript.
 
 ## Usage
 
