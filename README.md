@@ -32,7 +32,7 @@ const account = Account.at("0x4780e332579dd6c885fbd66ae8166b103b016ef7");
 
 **or**
 
-Create a instance of your contract altogether
+Create a new instance of your contract altogether
 
 ``` javascript
 const account = await Account.new();
