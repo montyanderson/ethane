@@ -5,7 +5,7 @@ ES8-compatible Ethereum smart contracts library for Javascript.
 ## Usage
 
 ``` javascript
-const Ethane = require("ethane");
+const ethane = require("ethane");
 ethane.provider = web3.currentProvider;
 
 const Account = ethane.contract(
